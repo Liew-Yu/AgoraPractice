@@ -1,0 +1,183 @@
+body {
+    font-family: 'Russo One', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#countainer {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+}
+
+#left-pane {
+    padding: 100px;
+    height:100%;
+    width: 30vw;
+    box-shadow: 0px 4px 52px rgba(0, 0, 0.13);
+}
+
+#logo-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#form{
+    margin-top: 30px;
+}
+
+#heading-text {
+    color: black;
+    font-size: 15px;
+
+}
+
+input {
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 5px;
+    border: 2px solid #099dfd;
+    font-size: 1.25em;
+}
+
+#submit-button {
+    background-color: #099dfd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    font-size: 1.25em;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+#right-pane {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #099dfd;
+    align-items: center;
+    justify-content: center;
+
+}
+.right-pane {
+    flex: 2;
+    text-align: center;
+}
+
+#illustration-countainer {
+    display: flex;
+    border-radius: 2000px;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 700px;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+#image-countainer {
+    margin-top: auto;
+}
+
+#bottom-text {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 80px;
+
+}
+
+.incorrect {
+    border:2px solid red;
+
+}
+
+.warning {
+    display: none;
+    color: red;
+}
+
+.flexContainer {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.right-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction:column;
+    align-items:center;
+}
+
+#selfStream {
+    margin-top: 30px;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 160px;
+    height: 100px;
+    text-align: left;
+}
+
+#remoteStream {
+    text-align: left;
+    margin-top: 100px;
+    justify-self: center;
+    border: 2px solid #099dfd;
+    width: 400px;
+    height: 250px;
+}
+
+#join {
+    background-color: #099dfd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    font-size: 1.25em;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+#leave {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px, 16px, 8px, 16px;
+    font-size: 1.25em;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.controls {
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    height: 100px;
+    width: 600px;
+    background-color: white;
+    border-top-right-radius: 30px; 
+    border-top-left-radius: 30px;
+    box-shadow: 0px 4px 52px rgba(0, 0, 0.13);
+}
+
+.icon {
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+    margin-bottom: auto;
+    cursor: pointer;
+    color: #099dfd;
+}
